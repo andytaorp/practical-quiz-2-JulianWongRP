@@ -6,7 +6,7 @@ export default function Form({ onAddTask }) {
     e.preventDefault();
     const newTask = {
       id: Date.now(),
-      description: description.trim(),
+      description: description,
       complete: false,
     };
     onAddTask(newTask);
