@@ -14,8 +14,7 @@ export default function Form({ onAddTask }) {
     
     onAddTask(newTask);
     setDescription("");
-
-   
+    
   };
 
   function handleText(e){

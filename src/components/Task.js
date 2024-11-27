@@ -6,6 +6,8 @@ import React from "react";
  * @function Task
  * @returns {React.Component} A <li> containing the task description and a checkbox to toggle completion
  */
+
+
 export default function Task({task, onToggleTask, onDeleteTask}) {
     return(
         <div>
